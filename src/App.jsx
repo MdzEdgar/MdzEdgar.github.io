@@ -1,13 +1,10 @@
-import './App.css'
-
 function App() {
   return (
-    <div className="">
+    <div className="min-h-screen flex flex-col items-center justify-center font-oxygen">
       <header>
-        <h1 className='text-3xl font-bold underline'>Hola</h1>
         <nav>Menu</nav>
       </header>
-      <main>
+      <main className="flex flex-col justify-center items-center">
         <section>About me</section>
         <section>Skills</section>
         <section>Projects</section>
