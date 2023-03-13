@@ -5,7 +5,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'] ,
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+        'oxygen': ['Oxygen', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
